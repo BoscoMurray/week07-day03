@@ -7,25 +7,25 @@ package com.example.user.week07_day03_arrayadapter;
 public class Crypto {
 
     private int ranking;
-    private String title;
-    private int maxSupply;
+    private String name;
+    private int marketCap;
 
-    public Movie(Integer ranking, String title, Integer maxSupply) {
+    public Crypto(Integer ranking, String name, Integer marketCap) {
         this.ranking = ranking;
-        this.title = title;
-        this.maxSupply = maxSupply;
+        this.name = name;
+        this.marketCap = marketCap;
     }
 
     public Integer getRanking() {
         return ranking;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public Integer getMaxSupply() {
-        return maxSupply;
+    public Integer getMarketCap() {
+        return marketCap;
     }
 
 }
